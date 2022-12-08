@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 }, error -> {
-                    Toast toast = Toast.makeText(this,"An error occured...", Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(this,"An error occurred...", Toast.LENGTH_LONG);
                     toast.show();
             Log.e("getNewJoke", "Error while fetching JSON data from API");
         }
