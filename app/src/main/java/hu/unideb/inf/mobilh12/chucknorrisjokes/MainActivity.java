@@ -1,11 +1,10 @@
 package hu.unideb.inf.mobilh12.chucknorrisjokes;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.ObservableArrayList;
-import androidx.databinding.ObservableList;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -49,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 }, error -> {
-                    binding.jokeTextView.setText("An error occured...");
+                    Toast toast = Toast.makeText(this,"An error occured...", Toast.LENGTH_LONG);
+                    toast.show();
             Log.e("getNewJoke", "Error while fetching JSON data from API");
         }
         );
