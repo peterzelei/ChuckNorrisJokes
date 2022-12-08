@@ -1,4 +1,23 @@
 <resources>
     <string name="app_name">Chuck Norris Jokes</string>
     <string name="get_a_new_chuck_norris_joke">Get a new Chuck Norris joke</string>
+    <string-array name="categories_array">
+        <item>any</item>
+        <item>animal</item>
+        <item>career</item>
+        <item>celebrity</item>
+        <item>dev</item>
+        <item>explicit</item>
+        <item>fashion</item>
+        <item>food</item>
+        <item>history</item>
+        <item>money</item>
+        <item>movie</item>
+        <item>music</item>
+        <item>political</item>
+        <item>religion</item>
+        <item>science</item>
+        <item>sport</item>
+        <item>travel</item>
+    </string-array>
 </resources>
