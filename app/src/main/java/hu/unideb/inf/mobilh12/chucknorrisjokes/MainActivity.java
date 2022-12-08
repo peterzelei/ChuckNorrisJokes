@@ -19,16 +19,12 @@ public class MainActivity extends AppCompatActivity {
 
     public ActivityMainBinding binding;
 
-    private ObservableList<String> categories;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-        categories = new ObservableArrayList<String>();
         
         binding.getJokeButton.setOnClickListener(button -> getNewJoke());
 
