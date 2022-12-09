@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Chuck Norris Jokes</string>
-    <string name="get_a_new_chuck_norris_joke">Get a new Chuck Norris joke</string>
+    <string name="get_a_new_chuck_norris_joke">Get new joke</string>
+    <string name="category">Category:</string>
     <string-array name="categories_array">
         <item>any</item>
         <item>animal</item>
